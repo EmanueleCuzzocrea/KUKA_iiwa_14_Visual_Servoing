@@ -51,15 +51,17 @@ The project is organized into several components, each corresponding to differen
 
 
 5. **Trajectory tracking + Visual-Servoing**:
-    - A dynamic version of the vision-based controller is developed. The roboth has to track a given trajectory using joint space and Cartesian space inverse dynamics controllers, while keeping the eyes on the ArUco marker.
+    - A dynamic version of the vision-based controller is developed. The roboth has to track a given trajectory using joint space and cartesian space inverse dynamics controllers, while keeping the eyes on the ArUco marker.
     - The results are analyzed in terms of commanded joint torques and Cartesian error norms along the performed trajectories.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/de7a610b-af59-4d7e-9f5f-cd68f52cf757" alt="Pseudocode" width="400"/>
 </p>
 
+### Linear trajectory
 [a1_js.webm](https://github.com/user-attachments/assets/7e2163fe-f057-48a2-84f3-2fd94a12441e)
 
+### Circular trajectory
 [a2_js.webm](https://github.com/user-attachments/assets/1b380116-fc7d-41d7-ba7c-2b85e491e9a3)
 
 
