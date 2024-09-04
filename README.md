@@ -86,4 +86,10 @@ To set up the project and run the simulation, follow these steps:
     source devel/setup.bash
     ```
 
+## Key Results and Observations
+
+- **Object Detection**: The circular object was successfully detected in the camera feed using blob detection, and the processed image was republished with the detected object highlighted.
+- **Look-at-point Control**: The robot successfully aligned its camera with the ArUco marker, demonstrating effective use of the vision-based control node.
+- **Dynamic Control**: The dynamic vision-based controller effectively tracked reference velocities, while showing at the same time consistent alignment of the robot's camera with the moving marker.
+
 Thank you!
