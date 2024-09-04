@@ -17,7 +17,7 @@ The primary objectives of this project are:
 
 ## Project Structure
 
-The project is organized into several components, each corresponding to different stages of development and testing. The primary components include:
+The primary components of the project include:
 
 1. **Gazebo World Construction**: 
     - A new model representing a 15 cm radius colored circular object is created and inserted into a Gazebo world.
